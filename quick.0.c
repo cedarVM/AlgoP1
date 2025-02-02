@@ -20,16 +20,8 @@
  *
  * */
 
-int median(int size) {
-return size/2;
-}
-
 int last(int size) {
 return size - 1;
-}
-
-int begin(int size) {
-return 0;
 }
 
 void sort(int *arr, int *ins, int n, int func(int)) {
