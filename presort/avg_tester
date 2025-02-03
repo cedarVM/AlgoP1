@@ -1,1 +1,0 @@
-j=0; for i in {0..100}; do j=$[j+`./ip`]; done; echo $[j/100]
